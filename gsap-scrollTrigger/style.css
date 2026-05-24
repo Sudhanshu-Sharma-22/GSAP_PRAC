@@ -1,0 +1,51 @@
+.page1 {
+    height: 100vh;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page2 {
+    height: 100vh;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page3 {
+    height: 100vh;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    background-color: crimson;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.page4 {
+    height: 100vh;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page4 h1 {
+    font-size: 40vw;
+    text-transform: uppercase;
+    font-weight: 600;
+}
