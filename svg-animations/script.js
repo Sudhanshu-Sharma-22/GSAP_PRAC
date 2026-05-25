@@ -4,8 +4,8 @@ let finalPath = `M 10 100 Q 500 100 990 100`
 let string = document.querySelector("#string")
 
 string.addEventListener("mouseenter", () => {
-    string.addEventListener("mousemove", (dets) => {
-        finalPath = `M 10 100 Q ${dets.x} ${dets.y} 990 100`;
+    string.addEventListener("mousemove", (event) => {
+        finalPath = `M 10 100 Q ${event.x} ${event.y} 990 100`;
         gsap.to("svg path", {
             attr: {
                 d: finalPath
