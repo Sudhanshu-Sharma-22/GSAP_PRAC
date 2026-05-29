@@ -1,0 +1,215 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    color: black;
+    padding: 2%;
+    font-family: monospace;
+    overflow-x: hidden;
+}
+
+button {
+    background-color: white;
+}
+
+#topbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#topbar nav {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+#topbar h4 {
+    width: 7vw;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+#topbar h4:hover {
+    text-decoration: underline;
+}
+
+#topbar button {
+    border-radius: 10%;
+    white-space: nowrap;
+    height: 50%;
+    /* margin-top: 3%; */
+    cursor: pointer;
+}
+
+#info {
+    display: flex;
+    gap: 10%;
+    height: 80vh;
+}
+
+#infoDiv {
+    width: 50%;
+}
+
+#infoDiv h1 {
+    line-height: 1.2;
+    font-size: 500%;
+}
+
+#infoDiv p {
+    font-size: larger;
+}
+
+#infoDiv button {
+    border-radius: 10%;
+    white-space: nowrap;
+    height: 6%;
+    cursor: pointer;
+}
+
+#infoImg {
+    width: 50%;
+    padding-top: 4%;
+}
+
+#infoImg img {
+    height: 100%;
+    widows: 100%;
+}
+
+#partners {
+    display: flex;
+    align-items: center;
+    gap: 4%;
+    width: 100vw;
+}
+
+#partners img {
+    height: 120px;
+    width: 185px;
+}
+
+#services {
+    padding-bottom: 3%;
+}
+
+#servicesTitle {
+    display: flex;
+    align-items: center;
+}
+
+#servicesTitle h2 {
+    background-color: aqua;
+    padding: 0.3%;
+    font-weight: 600;
+    font-size: 300%;
+}
+
+#servicesTitle p {
+    width: 55%;
+    margin: 3% 5%;
+}
+
+#serviceOptions {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#service {
+    display: flex;
+    justify-content: space-between;
+}
+
+#serviceRight img {
+    height: 360px;
+    width: 360px;
+}
+
+#serviceLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#arrow {
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#proposal {
+    display: flex;
+    justify-content: space-between;
+}
+
+#proposalLeft {
+    width: 40%;
+    padding-left: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2%;
+}
+
+#proposal h2 {
+    font-weight: 600;
+    font-size: 250%;
+}
+
+#proposal p {
+    font-size: 110%;
+
+}
+
+#proposal button {
+    border-radius: 10%;
+    white-space: nowrap;
+    height: 8%;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+#proposalRight {
+    padding-right: 15%;
+}
+
+#proposalRight img {
+    height: 75%;
+}
+
+#caseStudy {
+    padding-bottom: 3%;
+}
+
+#caseStudyTitle {
+    display: flex;
+    align-items: center;
+}
+
+#caseStudy h2 {
+    background-color: aqua;
+    padding: 0.3%;
+    font-weight: 600;
+    font-size: 300%;
+}
+
+#caseStudy p {
+    width: 25%;
+    margin: 3% 5%;
+}
+
+#caseStudyContent {
+    display: flex;
+}
+
+#caseStudyContent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: beige;
+    padding-left: 10px;
+}
